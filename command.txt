@@ -1,0 +1,15 @@
+docker -v //show version
+docker ps --all //show running docker
+docker run hello-world //find local image that name hello-world and run
+docker run busybox ping google.com
+docker stop 37aa770582cc // Stop that container ID
+docker run busybox
+docker pull busybox
+docker create busybox ping google.com
+docker start <image ID>
+docker system prune // Dont mess with this shit
+docker exec -it <container ID> (sh, bash)
+docker rm <> //remove that shit
+docker run -p 8800:80 nginx // run docker port 8800 using nginx
+docker images // show docker images
+docker system df //to see the usage of the image
