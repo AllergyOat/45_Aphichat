@@ -13,3 +13,4 @@ docker rm <> //remove that shit
 docker run -p 8800:80 nginx // run docker port 8800 using nginx
 docker images // show docker images
 docker system df //to see the usage of the image
+.
